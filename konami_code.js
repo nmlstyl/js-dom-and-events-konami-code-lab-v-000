@@ -19,9 +19,6 @@ function init() {
         index = 0;
       }
     }
-
-
-
 }
 
 init().input.addEventListener('keydown', function(e) {
