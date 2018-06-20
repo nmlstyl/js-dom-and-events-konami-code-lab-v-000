@@ -9,7 +9,7 @@ function init() {
   input.addEventListener('keydown', function(e) {
       onKeyDownHandler(e)
     })
-  
+
   function onKeyDownHandler(e) {
       const key = parseInt(e.detail || e.which);
 
@@ -26,5 +26,3 @@ function init() {
       }
     }
 }
-
-
