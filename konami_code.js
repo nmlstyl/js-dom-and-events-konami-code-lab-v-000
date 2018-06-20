@@ -3,13 +3,6 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-
-  main.addEventListener('keydown', function(event) {
-    onKeyDownHandler(event)
-  })
-
-}
-
 function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
 
@@ -25,3 +18,9 @@ function onKeyDownHandler(e) {
       index = 0;
     }
   }
+
+}
+
+main.addEventListener('keydown', function(event) {
+  onKeyDownHandler(event)
+})
