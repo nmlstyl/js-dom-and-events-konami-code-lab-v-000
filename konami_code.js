@@ -12,7 +12,7 @@ function onKeyDownHandler(e) {
       index++;
 
       if (index === code.length) {
-        alert("Hurray!");
+        alert("999999 lives!");
 
         index = 0;
       }
