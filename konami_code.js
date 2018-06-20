@@ -21,8 +21,8 @@ function onKeyDownHandler(e) {
     }
   }
 
-}
+  input.addEventListener('keydown', function(e) {
+    onKeyDownHandler(e)
+  })
 
-input.addEventListener('keydown', function(e) {
-  onKeyDownHandler(e)
-})
+}
