@@ -19,8 +19,8 @@ function onKeyDownHandler(e) {
     }
   }
 
-  main.addEventListener('keypress', function(event) {
-    alert('I was clicked!')
+  main.addEventListener('keydown', function(event) {
+    onKeyDownHandler(event)
   })
 
 }
