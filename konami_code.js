@@ -19,7 +19,7 @@ function onKeyDownHandler(e) {
     }
   }
 
-  main.addEventListener('keydown', function(event) {
+  main.addEventListener('keypress', function(event) {
     alert('I was clicked!')
   })
 
