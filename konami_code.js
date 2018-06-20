@@ -4,9 +4,6 @@ const main = document.getElementById('mocha')
 
 function init() {
   // Write your JavaScript code inside the init() function
-  main.addEventListener('keydown', function(event) {
-    onKeyDownHandler(event)
-  })
 
 function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
@@ -25,3 +22,7 @@ function onKeyDownHandler(e) {
   }
 
 }
+
+main.addEventListener('keydown', function(event) {
+  onKeyDownHandler(event)
+})
