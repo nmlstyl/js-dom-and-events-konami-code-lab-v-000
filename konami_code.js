@@ -4,7 +4,7 @@ const input = document.querySelector('html')
 
 function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
-debugger;
+
     if (key === code[index]) {
       index++;
 
