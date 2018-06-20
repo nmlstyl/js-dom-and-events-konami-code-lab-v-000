@@ -20,8 +20,10 @@ function init() {
       }
     }
 
-  input.addEventListener('keydown', function(e) {
-    onKeyDownHandler(e)
-  })
+
 
 }
+
+init().input.addEventListener('keydown', function(e) {
+    onKeyDownHandler(e)
+  })
