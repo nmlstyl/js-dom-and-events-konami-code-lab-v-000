@@ -21,7 +21,7 @@ function init() {
 
   input.addEventListener('keydown', function(e) {
       debugger;
-      const key = parseInt(e.detail || e.which);
+      const key = e.location;
       onKeyDownHandler(e)
     })
 }
