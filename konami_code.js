@@ -5,7 +5,6 @@ const input = document.querySelector('input')
 function init() {
   // Write your JavaScript code inside the init() function
 
-  debugger;
   input.addEventListener('keydown', function(e) {
       onKeyDownHandler(e)
     })
