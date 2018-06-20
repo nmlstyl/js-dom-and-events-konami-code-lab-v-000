@@ -3,6 +3,7 @@ let index = 0;
 const input = document.querySelector('html')
 
 function onKeyDownHandler(e) {
+    debugger;
     const key = parseInt(e.detail || e.which);
 
     if (key === code[index]) {
