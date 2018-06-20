@@ -7,7 +7,7 @@ function onKeyDownHandler(e) {
 debugger;
     if (key === code[index]) {
       index++;
-debugger;
+
       if (index === code.length) {
         alert("999999 lives!");
 
