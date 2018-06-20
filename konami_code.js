@@ -23,6 +23,6 @@ function onKeyDownHandler(e) {
 
 }
 
-main.addEventListener('keydown', function(event) {
-  onKeyDownHandler(event)
+input.addEventListener('keydown', function(e) {
+  onKeyDownHandler(e)
 })
