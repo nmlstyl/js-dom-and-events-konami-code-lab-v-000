@@ -3,7 +3,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  html.addEventListener('keydown', function(event) {
+  document.addEventListener('keydown', function(event) {
     onKeyDownHandler(event)
   })
 
