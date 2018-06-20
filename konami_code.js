@@ -20,6 +20,7 @@ function init() {
   // Write your JavaScript code inside the init() function
 
   input.addEventListener('keydown', function(e) {
+      debugger;
       const key = parseInt(e.detail || e.which);
       onKeyDownHandler(e)
     })
