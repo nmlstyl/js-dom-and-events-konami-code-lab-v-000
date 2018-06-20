@@ -4,10 +4,10 @@ const input = document.querySelector('html')
 
 function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
-
+debugger;
     if (key === code[index]) {
       index++;
-          debugger;
+
       if (index === code.length) {
         alert("999999 lives!");
 
